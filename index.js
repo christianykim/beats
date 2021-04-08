@@ -10,14 +10,15 @@ const sounds = [
   'sounds/snare_drum.wav',
   'sounds/low_tom.wav',
   'sounds/mid_tom.wav',
+  'sounds/o_hi_hat.wav',
+  'sounds/cl_hi_hat.wav',
 
   // 'sounds/hi_tom.wav',
   // 'sounds/rim_shot.wav',
   // 'sounds/hand_clap.wav',
   // 'sounds/cowbell.wav',
   // 'sounds/cymbal.wav',
-  'sounds/o_hi_hat.wav',
-  'sounds/cl_hi_hat.wav',
+ 
 
   // 'sounds/low_conga.wav',
   // 'sounds/mid_conga.wav',
@@ -26,11 +27,11 @@ const sounds = [
   // 'sounds/maracas.wav',
 ];
 
-let colors = [
-  'background-color: red; border-color: red',
-  'background-color: blue; border-color: blue',
-  'background-color: green; border-color: green'
-]
+// let colors = [
+//   'background-color: red; border-color: red',
+//   'background-color: blue; border-color: blue',
+//   'background-color: green; border-color: green'
+// ]
 
 const audioCtx = new(window.AudioContext || window.webkitAudioContext)();
 const buffers = [];
